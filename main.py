@@ -54,8 +54,8 @@ def ejercicio4(bmp_name, alto, ancho):
 
     width, height = img.size
 
-    factorW = int(width/ancho)
-    factorH = int(height/alto)
+    factorW = width/ancho
+    factorH = height/alto
 
     newW = int(width/factorW)
     newH = int(height/factorH)
